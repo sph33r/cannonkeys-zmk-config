@@ -33,11 +33,11 @@
 
         func_layer {
             bindings = <
-&kp TILDE   &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6          &kp F7          &kp F8         &kp F9       &kp F10          &kp F11  &kp F12  &kp DEL  &kp DEL
-&trans      &trans  &trans  &trans  &trans  &trans  &trans          &trans          &kp INS        &trans       &kp PRINTSCREEN  &trans   &trans            &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT    &trans           &trans                     &trans
-&caps_word          &trans  &trans  &trans  &trans  &trans          &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP  &kp END          &trans   &trans            &trans
-&trans      &trans          &trans                  &trans                                                      &trans           &trans   &trans            &trans
+&kp TILDE   &kp F1  &kp F2    &kp F3     &kp F4     &kp F5   &kp F6          &kp F7          &kp F8        &kp F9     &kp F10          &kp F11  &kp F12  &kp DEL  &kp DEL
+&trans      &trans  &trans    &trans     &trans     &trans   &trans          &trans          &kp INS       &trans     &kp PRINTSCREEN  &trans   &trans            &trans
+&trans      &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans           &trans                     &trans
+&caps_word          &trans    &trans     &trans     &trans   &trans          &trans          &trans        &trans     &trans           &trans   &trans            &trans
+&trans      &trans            &trans                         &trans                                                   &trans           &trans   &trans            &trans
             >;
         };
 
